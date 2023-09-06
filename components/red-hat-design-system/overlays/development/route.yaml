@@ -1,0 +1,20 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: red-hat-design-system
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: red-hat-design-system
+    app.kubernetes.io/part-of: red-hat-design-system
+  name: red-hat-design-systemaomr
+spec:
+  path: /
+  port:
+    targetPort: 8077
+  to:
+    kind: Service
+    name: red-hat-design-system
+    weight: null
+status: {}
