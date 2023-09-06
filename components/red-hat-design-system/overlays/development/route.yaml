@@ -12,7 +12,7 @@ metadata:
 spec:
   path: /
   port:
-    targetPort: 8077
+    targetPort: 8080
   to:
     kind: Service
     name: red-hat-design-system
