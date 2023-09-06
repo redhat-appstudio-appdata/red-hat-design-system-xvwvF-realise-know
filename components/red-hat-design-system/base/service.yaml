@@ -11,9 +11,9 @@ metadata:
   name: red-hat-design-system
 spec:
   ports:
-  - name: "8077"
-    port: 8077
-    targetPort: 8077
+  - name: "8080"
+    port: 8080
+    targetPort: 8080
   selector:
     app.kubernetes.io/instance: red-hat-design-system
 status:
