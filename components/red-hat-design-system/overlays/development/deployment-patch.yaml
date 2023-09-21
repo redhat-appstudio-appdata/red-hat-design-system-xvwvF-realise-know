@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/bepowers-tenant/red-hat-design-system/red-hat-design-system@sha256:3f70b8ef774055e0319c8b6b3480007c9aa8166ba79d316420f29458b508334e
+      - image: quay.io/redhat-user-workloads/bepowers-tenant/red-hat-design-system/red-hat-design-system@sha256:e9da41b8b32a54eec6971c1c723951de398394166a03985d0b0eeb8f574d57e3
         name: my-nodejs
         resources: {}
 status: {}
