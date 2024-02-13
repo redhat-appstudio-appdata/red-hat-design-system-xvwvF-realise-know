@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/part-of: red-hat-design-system
   name: red-hat-design-system
 spec:
-  replicas: 1
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
